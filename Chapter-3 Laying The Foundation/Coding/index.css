@@ -1,0 +1,43 @@
+.header-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+#user {
+    margin-right: auto;
+}
+
+#user img {
+    width: 40px; 
+    height: auto;
+}
+
+#search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#search-box input {
+    height: 30px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#search-box button {
+    height: 40px;
+    padding: 5px 10px;
+}
+
+#logo {
+    margin-left: auto;
+}
+
+#logo img {
+    width: 145px; 
+    height: auto;
+}
