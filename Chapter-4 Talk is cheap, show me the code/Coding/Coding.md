@@ -17,4 +17,4 @@
             - Use `Array.map` to render all the restaurants
 
 
-## [Created a FoodFire App from scratch using Functional Component 🚀 Live Project App Link 😍](https://foodfire-chapter04.netlify.app/)
+
