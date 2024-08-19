@@ -1,0 +1,6 @@
+.parcel-cache
+dist
+node_modules
+deafault-img.jpg
+package.json
+package-lock.json

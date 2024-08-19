@@ -1,0 +1,66 @@
+/* Background with animation */
+.error-container {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqSn1MriucpD9X_vD-SOZhIfsD7ksmcyaW4w&s');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Keyframes for fade-in animation */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .error-content {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .error-heading {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ff6b6b;
+    animation: shake 0.5s ease-in-out infinite;
+  }
+  
+  /* Keyframes for shake animation */
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-10px); }
+    40%, 80% { transform: translateX(10px); }
+  }
+  
+  .error-status {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .error-description {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #ffffffcc;
+  }
+  
+  .error-button {
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    background-color: #ff6b6b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .error-button:hover {
+    background-color: #ff4a4a;
+  }
+  

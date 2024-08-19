@@ -1,0 +1,205 @@
+/* Container Styling */
+.container {
+  margin: 5rem auto;
+  padding: 2rem;
+  max-width: 80rem;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+}
+
+/* Carousel Wrapper */
+.carousel-wrapper {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+/* Carousel */
+.carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  height: 60vh;
+  max-height: 37.5rem;
+  background: linear-gradient(to right, #f7fafc, #edf2f7, #f7fafc);
+}
+
+/* Carousel Arrow */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transform: translateY(-50%);
+  transition: background 0.3s, transform 0.3s;
+}
+
+.carousel-arrow:hover {
+  background: rgba(0, 0, 0, 0.7);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-arrow.left {
+  left: 1rem;
+}
+
+.carousel-arrow.right {
+  right: 1rem;
+}
+
+/* Carousel Content */
+.carousel-content {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 100%;
+}
+
+/* Carousel Image */
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+  border-radius: 1rem;
+  transition: opacity 0.5s ease;
+}
+
+.carousel-image.visible {
+  display: block;
+  opacity: 1;
+}
+
+/* Details Section */
+.details {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.details:hover {
+  transform: translateY(-0.5rem);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* Restaurant Name */
+.restaurant-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2d3748;
+}
+
+/* Restaurant Timing */
+.restaurant-timing {
+  margin-top: 0.5rem;
+  color: #4a5568;
+}
+
+/* Actions Section */
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.action-button {
+  padding: 0.75rem 1.5rem;
+  background: #319795;
+  color: white;
+  border-radius: 0.5rem;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.action-button:hover {
+  background: #2c7a7b;
+  transform: scale(1.05);
+}
+
+/* Ratings Section */
+.ratings {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.rating {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+/* Cuisines Container */
+.cuisines-container {
+  margin-top: 1.5rem;
+}
+
+.cuisines-title {
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+}
+
+.cuisine-item {
+  display: inline-block;
+  padding: 0.75rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 9999px;
+  background: #f7fafc;
+  color: #319795;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  margin: 0.25rem;
+}
+
+.cuisine-item:hover {
+  background: #edf2f7;
+  transform: scale(1.05);
+}
+/* Updated Carousel Arrow */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  z-index: 10;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transform: translateY(-50%);
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.3);
+}
+
+.carousel-arrow:hover {
+  background: linear-gradient(45deg, #ff6a4d, #fd9a5e);
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 0.8rem 2.5rem rgba(0, 0, 0, 0.4);
+}
+
+.carousel-arrow.left {
+  left: 1rem;
+}
+
+.carousel-arrow.right {
+  right: 1rem;
+}
